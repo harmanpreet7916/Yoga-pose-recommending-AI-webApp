@@ -7,7 +7,7 @@ import { Configuration, OpenAIApi } from "openai";
 import CardSection from "../components/CardSection";
 import logo from "../assets/images/newLogo.png";
 
-const apikey = "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";
+const apikey = "Put you OpenAi's Key here";
 const openai = new OpenAIApi(
   new Configuration({
     apiKey: apikey,
