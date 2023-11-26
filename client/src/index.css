@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+    .btn {
+        @apply  rounded-lg p-2 px-4 shadow-sm border-2 hover:cursor-pointer;
+    }
+}
