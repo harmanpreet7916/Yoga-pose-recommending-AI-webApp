@@ -1,6 +1,8 @@
+// chat gpt api function template it is not being used any where 
+
 import { Configuration, OpenAIApi } from "openai";
 
-const apikey = "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";
+const apikey = "Open Api ai key here ";
 const openai = new OpenAIApi(
   new Configuration({
     apiKey: apikey,
